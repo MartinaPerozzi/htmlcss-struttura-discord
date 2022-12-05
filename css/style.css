@@ -42,7 +42,7 @@ ul>li{
     margin:auto;
 }
 
-/* second section */
+/* second-fourth section */
 .container{
     background-color:white;
     height:400px;
@@ -67,4 +67,19 @@ ul>li{
 .grey{
     background-color: lightgrey;
 }
+/* last section */
+.last-container{
+    background-color: lightgrey;
+    height:700px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
+.last-container>div{
+    border: 2px dashed black;
+    width:800px;
+    height:600px;
+    background-color: green;
+}
+/* footer */
