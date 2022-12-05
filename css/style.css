@@ -1,13 +1,23 @@
 /* Header */
 .header-container{
     min-width:1200px;
+    height:80px;
     margin: 0 auto;
-    display:flex;
-    padding: 30px 250px;
     background-color: lightblue;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.header-container>*{
+.header-elements{
+    width:800px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-elements>*{
     border: 2px dashed black;
     padding:10px 80px;
     background-color: goldenrod;
@@ -16,9 +26,6 @@
 nav:only-of-type{
     flex-grow: 1;
     text-align:center;
-}
-
-nav>ul{
     list-style: none;
 }
 
@@ -130,5 +137,5 @@ footer div.element-big{
     height:30px;
     padding:20px;
     line-height:0px;
-    background-color:rgb(237, 160, 214);
+    background-color:rgb(245, 135, 212);
 }
