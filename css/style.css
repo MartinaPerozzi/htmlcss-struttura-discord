@@ -36,13 +36,13 @@ ul>li{
 /* Main */
 
 /* first section */
-.first-container{
+.container-blue{
     height:350px;
     background-color: darkblue;
     display:flex;
 }
 
-.first-container>.element{
+.container-blue>.element{
     background: rgb(247, 130, 212);
     height:300px;
     width:600px;
@@ -51,7 +51,7 @@ ul>li{
 }
 
 /* second-fourth section */
-.container{
+.container-white{
     background-color:white;
     height:400px;
     display:flex;
@@ -72,9 +72,13 @@ ul>li{
     margin: auto 0;
 }
 /* third section */
-.grey{
+.container-grey{
     background-color: lightgrey;
+    height:400px;
+    display:flex;
+    justify-content: center;
 }
+
 /* last section */
 .last-container{
     background-color: lightgrey;
