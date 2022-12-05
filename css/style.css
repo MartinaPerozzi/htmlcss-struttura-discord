@@ -9,7 +9,7 @@
 
 .header-container>*{
     border: 2px dashed black;
-    padding:10px;
+    padding:10px 80px;
     background-color: goldenrod;
 }
 
@@ -25,6 +25,7 @@ nav>ul{
 ul>li{
     display:inline;
 }
+
 /* Main */
 
 /* first section */
@@ -82,4 +83,52 @@ ul>li{
     height:600px;
     background-color: green;
 }
+
 /* footer */
+footer{
+    background-color: rgb(27, 26, 26);
+    height:550px;
+}
+footer>div{
+    border:2px solid grey; 
+    display:flex;
+    justify-content: center;
+    padding:10px 0 30px 0;
+}
+
+footer div.element-small{
+    height:500px;
+    width:140px;
+    background-color: rgb(89, 200, 167);
+}
+footer div.element-big{
+    height:500px;
+    width:240px; 
+    background-color: rgb(218, 142, 115);
+}
+
+/* final bar */
+.final-bar{
+    height:100px;
+    background-color:rgb(27, 26, 26);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+.final-bar>div{
+    height:80px;
+    width:800px;
+    background-color: rgb(55, 206, 178);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.bar-elements>div{
+    border:2px dashed black;
+    height:30px;
+    padding:20px;
+    line-height:0px;
+    background-color:rgb(237, 160, 214);
+}
